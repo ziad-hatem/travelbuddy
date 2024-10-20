@@ -2,12 +2,8 @@ import React from "react";
 import DestinationCard from "./_components/DestinationCard";
 import { Destination } from "./types/index";
 
-interface HomeProps {
-  destinations: Destination[];
-}
-
-const Home: React.FC<HomeProps> = () => {
-  // For demonstration, we're using hardcoded data. Replace this with real API calls as needed.
+const Home: React.FC = () => {
+  // Hardcoded data for demonstration
   const destinations: Destination[] = [
     {
       id: "1",
